@@ -1,0 +1,17 @@
+mybatis:
+  table:
+    auto: update
+  model:
+    pack: com.hbqj.law #扫描用于创建表的对象的包名
+  database:
+    type: mysql
+
+mybatis-plus:
+  mapper-locations: classpath*:xxxxxx/*.xml,classpath*:com/gitee/sunchenbin/mybatis/actable/mapping/*/*.xml
+
+spring:
+  datasource:
+    url: jdbc:mysql://mrlb.cc:3308/law?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+    username: root
+    password: LaibinMysql.
+    driver-class-name: com.mysql.cj.jdbc.Driver
